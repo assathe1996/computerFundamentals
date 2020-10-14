@@ -1,4 +1,4 @@
-## Malloc implementation and results
+# Malloc implementation and results
 All evaluation in done on the memory traces provided in the traces folder.
 
 mm_checkpoint.c contains malloc implementation via segregated explicit lists. Memory utilisation is 59% with average throughput of 15000.
