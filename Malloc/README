@@ -1,3 +1,9 @@
+## Malloc implementation and results
+All evaluation in done on the memory traces provided in the traces folder.
+
+mm_checkpoint.c contains malloc implementation via segregated explicit lists. Memory utilisation is 59% with average throughput of 15000.
+mm_final.c implements Better fit algorithm with while eliminating footers in allocated blocks raising the memory utilisation to 70%.
+
 #############################
 # CS:APP Malloc Lab
 # Handout files for students
